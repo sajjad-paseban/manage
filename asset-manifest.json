@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/management/static/css/main.6cd53ddd.css",
-    "main.js": "/management/static/js/main.e7753cc0.js",
-    "static/js/787.aa35eeee.chunk.js": "/management/static/js/787.aa35eeee.chunk.js",
-    "static/media/Sans a4fran3.ttf": "/management/static/media/Sans a4fran3.b405362106aecf6bb79b.ttf",
-    "static/media/Vazir.ttf": "/management/static/media/Vazir.8698ab7164cb8aa9f35b.ttf",
-    "static/media/Tanha.ttf": "/management/static/media/Tanha.ae2fce92786e29029e6c.ttf",
-    "static/media/Yekan.ttf": "/management/static/media/Yekan.012789e6e9f8b9a4929f.ttf",
-    "index.html": "/management/index.html",
-    "main.6cd53ddd.css.map": "/management/static/css/main.6cd53ddd.css.map",
-    "main.e7753cc0.js.map": "/management/static/js/main.e7753cc0.js.map",
-    "787.aa35eeee.chunk.js.map": "/management/static/js/787.aa35eeee.chunk.js.map"
+    "main.css": "/manage/static/css/main.9643acb2.css",
+    "main.js": "/manage/static/js/main.3c23a762.js",
+    "static/js/787.aa35eeee.chunk.js": "/manage/static/js/787.aa35eeee.chunk.js",
+    "static/media/Sans a4fran3.ttf": "/manage/static/media/Sans a4fran3.b405362106aecf6bb79b.ttf",
+    "static/media/Vazir.ttf": "/manage/static/media/Vazir.8698ab7164cb8aa9f35b.ttf",
+    "static/media/Tanha.ttf": "/manage/static/media/Tanha.ae2fce92786e29029e6c.ttf",
+    "static/media/Yekan.ttf": "/manage/static/media/Yekan.012789e6e9f8b9a4929f.ttf",
+    "index.html": "/manage/index.html",
+    "main.9643acb2.css.map": "/manage/static/css/main.9643acb2.css.map",
+    "main.3c23a762.js.map": "/manage/static/js/main.3c23a762.js.map",
+    "787.aa35eeee.chunk.js.map": "/manage/static/js/787.aa35eeee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cd53ddd.css",
-    "static/js/main.e7753cc0.js"
+    "static/css/main.9643acb2.css",
+    "static/js/main.3c23a762.js"
   ]
 }
