@@ -2,7 +2,7 @@
   "name": "prices-factors-management",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sajjad-paseban.github.io/management",
+  "homepage": "https://sajjad-paseban.github.io/manage",
   "dependencies": {
     "@coreui/react-chartjs": "^2.1.3",
     "@testing-library/jest-dom": "^5.16.5",
