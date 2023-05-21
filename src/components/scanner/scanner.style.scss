@@ -1,14 +1,11 @@
 .scanner{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    z-index: 3;
-    background-color: rebeccapurple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    z-index: 10;
+    
     button{
         position: absolute;
         top: 0;

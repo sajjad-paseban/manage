@@ -21,7 +21,7 @@ function Prices(){
                 <Scanner callbackData = {setData} scannerStateHandler = {actions.useScannerHandler} />
             }
             {data}
-            <PageTitle title='قیمت ها' />
+            <PageTitle title='مدیریت قیمت محصولات' />
             <HeaderPage buttons={buttons} placeholder='جست و جوی نام محصول' scannerButton={true} scannerButtonHandler={actions.useScannerHandler} />
             <div className="row m-2">
                 <div className="col">

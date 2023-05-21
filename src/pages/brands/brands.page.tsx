@@ -7,8 +7,8 @@ import './brands.style.scss';
 function Brands(){
     return(
         <div className="brands">
-            <PageTitle title="برندها" />
-            <HeaderPage name='barndSearch' placeholder='جست و جوی نام برند' buttons={[{title: 'برند جدید' , link: '/'}]}/>
+            <PageTitle title="مدیریت برندها" />
+            <HeaderPage name='barndSearch' placeholder='جست و جوی نام برند' buttons={[{title: 'برند جدید' , link: '/brands/create'}]}/>
             <div className="row m-2">
                 <div className="col">
                     <Card>

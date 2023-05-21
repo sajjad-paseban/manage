@@ -17,10 +17,10 @@ function Sidebar(){
                     <SideBarMenuItem href="/prices" title="قیمت ها" icon={<FaPercentage color='388e3c'/>}/>
                     <SideBarMenuItem href="/brands" title="برندها" icon={<FaMeteor color='e53935'/>}/>
                     <SideBarMenuItem href="/factors" title="فاکتورها" icon={<FaFileImport color='40c4ff'/>}/>
-                    <SideBarMenuItem href="google.com" title="دسترسی ها" icon={<FaKey color='ba68c8'/>}/>
-                    <SideBarMenuItem href="google.com" title="کاربران" icon={<FaUsers color='009688'/>}/>
-                    <SideBarMenuItem href="google.com" title="مدیریت جداول پایه" icon={<FaList color='ffa000'/>}/>
-                    <SideBarMenuItem href="google.com" title="تنظیمات" icon={<FaCogs color='263238'/>}/>
+                    <SideBarMenuItem href="/access" title="دسترسی ها" icon={<FaKey color='ba68c8'/>}/>
+                    <SideBarMenuItem href="/users" title="کاربران" icon={<FaUsers color='009688'/>}/>
+                    <SideBarMenuItem href="/baseTable" title="مدیریت جداول پایه" icon={<FaList color='ffa000'/>}/>
+                    <SideBarMenuItem href="/settings" title="تنظیمات" icon={<FaCogs color='263238'/>}/>
                 </ul>
             </div>
         </div>

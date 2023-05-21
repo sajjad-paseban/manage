@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import './card.style.scss';
+import { CardInterface } from './card.interface';
 
-function Card({title, width='100%', HeaderBoardering=true, buttons=[], children}: any){
+function Card({title, width='100%', HeaderBoardering=true, buttons=[], children}: CardInterface){
     return(
         <div className="x-card" style={{width}}>
             { title &&
