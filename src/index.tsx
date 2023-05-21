@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename='/manage/'>
     <Routes>
       <Route path='/' element={<App />}>
         <Route index element={<Dashboard />} />
