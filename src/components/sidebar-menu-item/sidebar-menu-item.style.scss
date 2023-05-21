@@ -1,0 +1,34 @@
+@import '../../assets/scss/base/material-color.style';
+@import '../../assets/scss/base/base-color.style';
+
+li.sidebar-menu-item{
+    margin: 10px 0;
+    font-family: vazir;
+    a{
+        text-decoration: none;
+        color: $md-grey-900;
+        padding: 10px 0;
+        width: 100%;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        svg{
+            position: relative;
+            right: 15px;
+            font-size: 30px;
+        }
+        span{
+            transition: color 200ms;
+            white-space: nowrap;
+            position: absolute;
+            right: 60px;
+            top: 16px;
+            font-size: 15px;
+        }
+        &:hover{
+            span{
+                color: $md-blue-600;
+            }
+        }
+    }
+}

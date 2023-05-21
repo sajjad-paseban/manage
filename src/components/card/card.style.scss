@@ -1,0 +1,42 @@
+@import '../../assets/scss/base/material-color.style';
+@import '../../assets/scss/base/base-color.style';
+
+
+.x-card{
+    background-color: $default-white;
+    border: 1px solid $border-color;
+    margin: 5px 0;
+    border-radius: 8px;
+    font-family: vazir;
+    .x-card-header{
+        border-bottom: 1px dotted $border-color;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        // background-color: $md-grey-100;
+        &.without-border{
+            border-bottom: none;
+        }
+        h6{
+            position: relative;
+            top: 4px;
+            right: 5px;
+        }
+    }
+    .x-card-body{
+        padding: 10px;
+        direction: rtl;
+        overflow: hidden;
+        overflow-x: auto;
+        &::-webkit-scrollbar{
+            height: 6px;
+            background-color: $border-color;
+            border-radius: 5px;
+        }
+        &::-webkit-scrollbar-thumb{
+            background-color: $md-grey-400;
+            border-radius: 5px;
+            
+        }
+    }
+}

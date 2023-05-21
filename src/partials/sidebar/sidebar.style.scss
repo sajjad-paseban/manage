@@ -1,0 +1,36 @@
+@import '../../assets/scss/base/material-color.style';
+@import '../../assets/scss/base/base-color.style';
+.sidebar-wrapper{
+    overflow: hidden;
+    .sidebar-header{
+        background-color: $md-blue-600;
+        direction: rtl;
+        height: 64px;
+        position: relative;
+        img{
+            width: 50px;
+            position: relative;
+            right: 20px;
+            top: 5px;
+        }
+        span{
+            white-space: nowrap;
+            font-family: 'yekan';
+            color: $md-white;
+            position: absolute;
+            text-align: center;
+            vertical-align: middle;
+            right: 80px;
+            top: 20px;
+            font-size: 18px;
+        }
+    }
+    .sidebar-content{
+        overflow-y: auto;
+        ul{
+            list-style: none;
+            padding: 10px;
+            direction: rtl;
+        }
+    }
+}

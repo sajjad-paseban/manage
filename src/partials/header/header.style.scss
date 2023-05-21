@@ -1,0 +1,79 @@
+@import '../../assets/scss/base/material-color.style.scss';
+@import '../../assets/scss/base/base-color.style.scss';
+
+
+.header{
+    padding: 8px 0;
+    background-color: $md-white;
+    border-bottom: 1px solid $border-color;
+    .header-profile{
+        font-family: 'yekan';
+        position: relative;
+        span{
+            margin: 0 10px;
+            position: relative;
+            bottom: 10px;
+        }
+        small{
+            position: absolute;
+            top: 25px;
+            right: 55px;  
+            font-size: 12px;          
+        }
+        img{
+            border-radius: 50px;
+        }
+
+        .header-profile-content{
+            background-color: $md-white;
+            width: auto;
+            min-height: 20px;
+            border: 1px solid $border-color;
+            border-radius: 3px;
+            position: absolute;
+            top: 58px;
+            display: none;
+            &.show{
+                display: block; 
+            }
+            .d-flex{
+                padding: 10px 0;
+                div{
+                    color: $default-white;
+                    background-color: $md-blue-600;
+                    border-radius: 50%;
+                    width: 45px;
+                    height: 45px;
+                    transition: transform 200ms;
+                    &:hover{
+                        transform: scale(1.06);
+                    }
+                    svg{
+                        font-size: 25px;
+                        position: relative;
+                        left: 10px;
+                        top: 10px;
+                    }
+                }
+            }
+
+        }
+
+    }
+    .d-flex{
+        & > div{
+            margin: 0 8px;
+            position: relative;
+            user-select: none;
+            cursor: pointer;
+            
+            .badge{
+                position: absolute;
+                border-radius: 50%;
+                bottom: 15px;
+                right: 15px;
+                font-size: 10px;
+            }
+        }
+    }
+}

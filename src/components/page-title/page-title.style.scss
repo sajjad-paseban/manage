@@ -1,0 +1,11 @@
+@import '../../assets/scss/base/material-color.style';
+@import '../../assets/scss/base/base-color.style';
+
+.page-title{
+    padding: 25px;
+    h3{
+        font-family: 'iransans';
+        float: right;
+        color: $md-grey-600;
+    }
+}

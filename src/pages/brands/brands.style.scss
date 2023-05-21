@@ -1,0 +1,16 @@
+.brands{
+    table{
+        thead{
+            font-size: 15px;
+        }
+        tbody{
+            font-size: 14px;
+            td{
+                padding-top: 15px;
+                &:last-child{
+                    padding-top: 8px;
+                }
+            }
+        }
+    }
+}
